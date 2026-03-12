@@ -1,18 +1,27 @@
 # North Retail Dashboard
 
-A retail decision dashboard built to turn sales data into clear and actionable business insights.
+A one-click Power BI retail dashboard project built from a stable PBIP/PBIR shell and adapted to a new retail use case.
 
 ## Objective
 
-This project aims to create a simple and modern dashboard to monitor retail performance, track key KPIs, and support better decision-making.
+This repository is designed to showcase a retail analytics case in Power BI, with a reproducible one-click build approach, realistic retail data, and premium executive storytelling.
 
-## Project structure
+## Core structure
 
-- `data` → raw and prepared data
-- `src` → core project logic
-- `app` → dashboard application files
-- `docs` → screenshots and project notes
+- `Dashboard.pbip` → Power BI project entry point
+- `Dashboard.Report` → report definition
+- `Dashboard.SemanticModel` → semantic model
+- `data` → retail CSV source files
+- `docs` → provenance, schema, executive insights
+- `scripts` → PowerShell automation scripts
+- `dax` → DAX assets and measure files
+
+## Expected visible pages
+
+- Retail Executive Overview
+- Customer & Merchandising
+- Commercial Performance
 
 ## Status
 
-Project setup in progress.
+Repository structure in progress.
